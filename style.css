@@ -1,0 +1,51 @@
+*{
+    
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.game{
+    width: 255px;
+    /* background-color: blue; */
+    margin:auto;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    
+}
+.title{
+    color: white;
+    background-color: #f25;
+    padding: 8px 0;
+    margin: 10px 0;
+    font-size: 25px;
+}
+span{
+    color: #fa0;
+}
+.squar{
+    margin: 2px;
+    width: 80px;
+    height: 80px;
+    background-color: #f25;
+    float: left;
+    font-size: 50px;
+    color: white;
+}
+.squar:hover{
+    background-color: #000;
+    cursor: pointer;
+}
+.players{
+    background-color: #eee7e7;
+    width: 255px;
+    height: 50px;
+    /* text-align: center; */
+    /* margin: 0 10px; */
+    padding: 20px 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
